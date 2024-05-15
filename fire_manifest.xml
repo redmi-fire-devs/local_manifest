@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<manifest>
+		<!-- Remote -->
+			<remote name="github" fetch="https://github.com" clone-depth="1" />
+			
+		<!-- Device tree -->
+			<project path="device/xiaomi/fire" name="redmi-fire-devs/android_device_xiaomi_fire" remote="github" revision="lineage-21" />
+
+		<!-- Vendor tree -->
+			<project path="vendor/xiaomi/fire" name="redmi-fire-devs/proprietary_vendor_xiaomi_fire" remote="github" revision="lineage-21" />
+
+	</manifest>
